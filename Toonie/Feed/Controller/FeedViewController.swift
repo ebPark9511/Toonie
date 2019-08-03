@@ -142,7 +142,7 @@ final class FeedViewController: GestureViewController {
 
     private func setRecmdCardLayout() {
         self.recmdCardView.setCorner(cornerRadius:10)
-        self.recmdCardImageView.setCorner(cornerRadius: self.recmdCardImageView.frame.width / 1.8)
+        self.recmdCardImageView.setCorner(cornerRadius: self.recmdCardImageView.frame.width / 2)
     }
     
     ///초기화
